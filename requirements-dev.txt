@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# Dev / test tools
+pytest>=7.0.0
+pytest-asyncio>=0.23.0
+langsmith>=0.1.0
+ruff>=0.6.1
+mypy>=1.11.1

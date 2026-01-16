@@ -1,0 +1,9 @@
+# Optional dependencies for the constrained (QP) optimizer backend.
+#
+# Install with:
+#   pip install -r requirements-optimizer.txt
+#
+# Note: cvxpy may require system build tools on some platforms.
+
+cvxpy>=1.4.0
+osqp>=0.6.5

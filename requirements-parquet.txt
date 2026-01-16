@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Optional: load Parquet via --data-path
+pyarrow>=12.0.0

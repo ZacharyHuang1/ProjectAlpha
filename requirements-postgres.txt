@@ -1,0 +1,13 @@
+-r requirements.txt
+
+# Optional: enable Postgres checkpointing + domain persistence
+#
+# Notes:
+# - langgraph-checkpoint-postgres depends on psycopg (v3). Installing psycopg with
+#   the [binary] extra avoids requiring system libpq on many setups.
+
+langgraph-checkpoint-postgres>=3.0.0
+psycopg[binary]>=3.2.0
+psycopg-pool>=3.2.0
+psycopg2-binary>=2.9.5
+alembic>=1.10.0
